@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Prediction Game</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Hangman</h1>
+        <div id="game-status">
+            <p>Score: <span id="score">0</span></p>
+            <p>Lives: <span id="lives">❤️❤️❤️</span></p>
+        </div>
+        <div id="word-display">
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
+        </div>
+        <p>Enter Your Guess:</p>
+        <div id="game-controls">
+            <input type="text" id="prediction-input" maxlength="5" placeholder="Enter a letter or word">
+            <button id="submit-btn" class="btn">Submit</button>
+            <button id="reset-btn" class="btn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

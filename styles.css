@@ -8,11 +8,16 @@ body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 40px 20px;
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .container {
-    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -25,7 +30,7 @@ body {
 
 .profile-section {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .profile-section h1 {
@@ -34,16 +39,11 @@ body {
     color: var(--dark-blue);
 }
 
-.profile-section p {
-    font-size: 1.2em;
-    color: #666;
-}
-
 .about-section, .academic-interests-section {
     background-color: var(--dark-blue);
     border-radius: 12px;
-    padding: 30px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -52,9 +52,8 @@ h2 {
     font-size: 1.8em;
 }
 
-p {
+.about-section, .academic-interests-section p {
     color: ivory;
-    margin-top: 0;
     font-size: 1em;
 }
 
@@ -69,6 +68,9 @@ p {
     font-size: 1.1em;
     font-weight: 500;
     letter-spacing: 0.5px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 .btn:hover {
