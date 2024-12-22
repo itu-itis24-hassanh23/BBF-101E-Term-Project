@@ -57,7 +57,7 @@ h2 {
     font-size: 1em;
 }
 
-.btn {
+.btn , .game-btn {
     display: inline-block;
     background-color: var(--light-blue);
     color: ivory;
@@ -73,8 +73,42 @@ h2 {
     display: block;
 }
 
-.btn:hover {
+.btn:hover , .game-btn:hover{
     background-color: var(--dark-blue);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(61, 82, 213, 0.2);
+}
+
+
+/** Hangman Styling **/
+.word-display{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+.letter-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 15%;
+}
+
+.letter-box img {
+  width: 80%;
+  height: 80%;
+}
+
+input{
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    border-style: dotted;
+    margin: 10px auto 30px;  /* Added bottom margin of 30px */
+    display: block;
+    text-align: center;
 }
