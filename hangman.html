@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Word Prediction Game</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
     <div class="container">
@@ -14,14 +12,15 @@
             <p>Lives: <span id="lives">❤️❤️❤️</span></p>
         </div>
         <div id="word-display" class="word-display">
-            <div class="letter-box"><img src="/images/hangman/p.svg"></div>
-            <div class="letter-box"><img src="/images/hangman/r.svg"></div>
+            <div class="letter-box"></div>
+            <div class="letter-box"></div>
             <div class="letter-box"></div>
             <div class="letter-box"></div>
             <div class="letter-box"></div>
         </div>
-            <input type="text" id="guess-input" maxlength="5" placeholder="Guess a letter or word">
-            <div id="button-container">
+        <input type="text" id="guess-input" maxlength="5" placeholder="Guess a letter or word">
+        <p id="message"></p>
+        <div id="button-container">
             <button id="guess-btn" class="game-btn">Guess</button>
             <button id="reset-btn" class="game-btn">Reset</button>
         </div>
