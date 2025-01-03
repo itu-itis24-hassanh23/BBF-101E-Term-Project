@@ -21,7 +21,6 @@ function initialise() {
     updateDisplay();
 }
 
-
 const displayContainer = document.getElementById("word-display");
 const livesEl = document.getElementById("lives");
 const scoreEl = document.getElementById("score");
@@ -76,7 +75,7 @@ function checkGuess() {
     updateDisplay();
 }
 
-resetBtn.addEventListener('click', initialise)
+resetBtn.addEventListener('click', initialise);
 guessBtn.addEventListener("click", checkGuess);
-initialise()
+initialise();
 updateDisplay();
