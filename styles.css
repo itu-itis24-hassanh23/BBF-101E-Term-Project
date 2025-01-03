@@ -6,9 +6,6 @@
 body {
     background-color: ivory;
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 40px 20px;
-    line-height: 1.4;
 }
 
 .container {
@@ -33,7 +30,7 @@ body {
     margin-bottom: 20px;
 }
 
-.profile-section h1 {
+.container h1 {
     font-size: 2.5em;
     margin: 1px 0;
     color: var(--dark-blue);
@@ -58,7 +55,6 @@ h2 {
 }
 
 .btn , .game-btn {
-    display: inline-block;
     background-color: var(--light-blue);
     color: ivory;
     padding: 14px 28px;
@@ -71,6 +67,9 @@ h2 {
     text-align: center;
     margin: 0 auto;
     display: block;
+    width: 50%;
+    margin-top: 5px;
+    border: none;
 }
 
 .btn:hover , .game-btn:hover{
@@ -81,6 +80,7 @@ h2 {
 
 
 /** Hangman Styling **/
+
 .word-display{
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ input{
     font-size: 1.1em;
     border-radius: 10px;
     border-style: dotted;
-    margin: 10px auto 30px;  /* Added bottom margin of 30px */
+    margin: auto;
     display: block;
     text-align: center;
 }
