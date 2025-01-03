@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M3.5,24c-.829,0-1.5-.672-1.5-1.5V5.5C2,2.468,4.467,0,7.5,0h7c9.929,.353,9.922,14.65,0,15H5v7.5c0,.828-.671,1.5-1.5,1.5Zm1.5-12H14.5c5.935-.156,5.931-8.846,0-9H7.5c-1.378,0-2.5,1.121-2.5,2.5v6.5Z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="17.595825mm"
+   height="20.954794mm"
+   viewBox="0 0 17.595825 20.954794"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="0"
+       y="0"
+       width="793.70081"
+       height="408.31149"
+       id="rect1" />
+  </defs>
+  <text
+     xml:space="preserve"
+     id="text1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);fill:none"
+     transform="matrix(0.26458333,0,0,0.26458333,-2.75177,-3.9810551)"><tspan
+       x="0"
+       y="88.044554"
+       id="tspan3"><tspan
+         style="fill:#000000"
+         id="tspan2">P</tspan></tspan></text>
+</svg>
